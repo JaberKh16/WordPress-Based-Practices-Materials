@@ -341,30 +341,42 @@
 
 
 
-/* footer section */
+/* Footer section */
+
+.footer{
+    background-color: #3A3A3A;
+    padding: 30px;
+}
+
 .footer-left-menu{
     color: #bbb;
     font-size: 14px;
 }
+
 .footer-right-menu a{
     color: #bbb;
     text-decoration: none;
 }
+
 .footer-right-menu a:hover {
     color: black;
     font-weight: bold;
 }
+
 .copyright-footer{
     background-color: #303030;
     padding: 15px 0px;
 }
+
 .copyright-footer .text-right{
     text-align: right;
 }
+
 .copyright-footer a{
     color: #777;
     text-decoration: none;
 }
+
 .copyright-footer a:hover{
     color: black;
     font-weight: bold;
