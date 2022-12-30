@@ -1,0 +1,455 @@
+body{
+	background: url(img/bg_main.gif) center;
+}
+.custom-width{
+	width: 1020px;
+}
+
+
+/*----------------------------
+			topnav css start
+----------------------------*/
+.topnav .row{
+	background: #9E5BBA;
+	border-bottom: 1px solid #e40001;
+	color: white;
+	font-size: 13px;
+}
+.topnav .row h5{
+	font-size: 14px;
+}
+/*----------------------------
+			topnav css end
+----------------------------*/
+
+/*----------------------------
+			logo css start
+----------------------------*/
+.logo .montronaloy .div1,
+.logo .montronaloy .div2{
+	display: inline-flex;
+	background: #8CC643;
+	color: white;
+	font-size: 10px;
+	/*padding: 1px 7px;*/
+	padding-top: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.logo .montronaloy .div1 h5,
+.logo .montronaloy .div2 h5{
+	padding: 0 2px;
+}
+.logo .montronaloy .div1{
+	position: relative;
+}
+.logo .montronaloy .div1::before{
+	content: '';
+	display: block;
+	clear: both;
+	height: 73px;
+	width: 74px;
+	position: absolute;
+	top: -153%;
+	left: -42%;
+	transform: rotate(45deg);
+	z-index: -1;
+	background: #8CC643;
+}
+.logo .montronaloy .div1:hover,
+.logo .montronaloy .div2:hover{
+	background: red;
+	cursor: pointer;
+}
+.logo .montronaloy .div1:hover:before{
+	background: red;
+	cursor: pointer;
+}
+.logo input[type="text"]{
+	border: 1px solid #ccc;
+	outline: none;
+	color: #777;
+	width: 70%;
+	font-size: 11px;
+	padding: 5px 5px;
+}
+.logo button{
+	background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	color: #444;
+	text-shadow: 0 1px rgba(255, 255, 255, .75);
+	cursor: pointer;
+	font-size: 11px;
+	padding: 5px 5px;
+	margin: 0 5px;
+}
+.logo .onushondhan{
+	border-right: 1px solid #e8e8e8;
+}
+.logo .social span{
+	color: #683091;
+	font-weight: bold;
+	font-size: 13px;
+	display: block;
+}
+.logo .social a{
+	padding-right:3px;
+}
+/*----------------------------
+			logo css end
+----------------------------*/
+
+
+/*----------------------------
+			navbar css start
+----------------------------*/
+.navbar .container-fluid{
+	background-color: #efefef;
+	border-bottom: 1px solid white;
+}
+.navbar ul li a{
+	font-size: 15px;
+	border-right: 1px solid #c8c8c8 !important;
+	color: #333 !important;
+	padding: 7px 12px;
+}
+.navbar ul li:hover{
+	background: red;
+}
+.navbar ul li a:hover{
+	color: white !important;
+}
+/*----------------------------
+			navbar css start
+----------------------------*/
+
+
+/*main section css start*/
+/*****1. leftsidebar css start****/
+.national-img{
+	border: 2px solid red;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+/*----------------------------
+			Tab start
+----------------------------*/
+.tab {
+  overflow: hidden;
+}
+.tab button {
+  background-color: #9E5BBA;
+  color: #e8e8e8;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 9px 15px 5px 15px;
+  border-radius: 3px 3px 0px 0px;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 13px;
+  margin: 0 1px;
+}
+.tab button:hover {
+  background: #e8e8e8;
+  color: #9E5BBA;
+}
+.tab button.active {
+ 	background: #e8e8e8;
+	color: #9E5BBA;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #e8e8e8;
+  border-top-left-radius: 0px;
+	background: #fafafa;
+	border-radius: 3px;
+}
+.tabcontent {
+  animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.tabdiv{
+	font-size: 13px;
+	padding: 10px;
+	display: inline-block;
+}
+.tabdiv a{
+	text-decoration: none;
+	color: #297101;
+	text-align: center;
+}
+#doptor ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+/*----------------------------
+			Tab end
+----------------------------*/
+
+/*----------------------------
+			Uddog start
+----------------------------*/
+.uddog span,
+.jonoprio span{
+	color: #69308f;
+	font-weight: bold;
+}
+.uddog a{
+	color: black;
+}
+.uddog li{
+	color: #297101;
+	border-bottom: 1px solid #297101;
+	padding: 7px 0;
+}
+.uddog a,
+.uddog li{
+	font-size: 13px;
+	text-decoration: none;
+}
+.uddog button,
+.jonoprio button,
+.batayon button{
+	background-image: linear-gradient(to bottom, #666, #a6a6a6);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #A2A2A2;
+	padding: 0 5px;
+	color: #fff !important;
+	font-size: 13px;
+}
+/*----------------------------
+			Uddog end
+----------------------------*/
+
+/*----------------------------
+			images section start
+----------------------------*/
+.images img{
+	width: 212px;
+	margin: 5px 0;
+}
+/*----------------------------
+			images section end
+----------------------------*/
+
+
+/*----------------------------
+			jonoprio css start
+----------------------------*/
+.jonoprio ul li a{
+	font-size: 11px;
+	text-decoration: none;
+	color: black;
+}
+.jonoprio h6{
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 3px;
+	font-size: 15px;
+}
+/*----------------------------
+			jonoprio css end
+----------------------------*/
+
+/*----------------------------
+			odhikar css start
+----------------------------*/
+.mydiv{
+	background-color: #609513 !important;
+  	color: #fff;
+  	padding: 6px 5px;
+  	width: 102%;
+}
+.mydiv h3{
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.odhikar p{
+	font-size: 11px;
+	text-align: center;
+	font-weight: bold;
+}
+/*----------------------------
+			odhikar css end
+----------------------------*/
+
+/*****1. leftsidebar css end****/
+
+/*****1. rightsidebar css start****/
+.rightsidebar-img img{
+	width: 313px;
+	height: 50px;
+	margin-bottom: 7px;
+}
+
+/*----------------------------
+			shokol batayon start
+----------------------------*/
+.batayon h3,
+.bataton{
+	color: #6b2f91;
+	font-size: 17px;
+}
+.digital{
+	font-size: 15px !important;
+}
+.batayon select{
+	width: 83%;
+	font-size: 14px;
+}
+.batayon .mydiv{
+	background-color: #609513 !important;
+  padding: 6px 5px;
+	width: 100%;
+}
+.batayon .mydiv h3{
+	font-size: 14px;
+	margin-bottom: 0;
+  color: #fff;
+}
+.myimg{
+	  height: 200px;
+  width: 100%;
+}
+/*----------------------------
+			shokol batayon end
+----------------------------*/
+
+/*----------------------------
+			footer css start
+----------------------------*/
+.myfooter{
+	border-bottom: 3px solid #9E5BBA;
+}
+.footer{
+	background: url(img/footer_top_bg.png);
+	background-size: cover;
+	height: 84px;
+	width: 100%;
+}
+.footer-menu1 ul li{
+	border-right: 1px solid #cccccc;
+	padding: 1px 10px;
+}
+.footer-menu1 ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #333;
+}
+.footer-menu1 ul li a:hover{
+	text-decoration: underline;
+	color: black;
+}
+.footer-text{
+	font-size: 11px;
+	padding: 1px 11px;
+}
+.footer-text2{
+	font-size: 10px;
+}
+.footer-text2 img{
+	margin-top: -16px !important;
+	margin-left: -29px !important;
+}
+.footer-menu2 ul li{
+	padding: 1px 1px;
+	margin-right: 0 !important;
+}
+.footer-menu2 ul li a{
+	font-size: 8px !important;
+	text-decoration: none;
+	color: #333;
+}
+.footer-menu2 ul li a: hover{
+	text-decoration: underline;
+}
+.footer-menu2 p, .footer-menu2 ul li a{
+	font-size: 10px;
+	display: inline-block;
+}
+footer .light-back{
+	background: #ebebeb;
+}
+/*----------------------------
+			footer css end
+----------------------------*/
+
+/*****1. rightsidebar css end****/
+/*main section css end*/
+
+
+@media all and (max-width: 992px){
+	.custom-width{
+		width: inherit;
+	}
+	.topnav h5{
+		text-align: center;
+	}
+	.topnav .col-lg-7{
+		justify-content: center !important;
+	}
+	.logo .logo-img{
+		text-align: center;
+		padding: 20px 0 !important;
+	}
+	.logo .montronaloy1 .row{
+		float: none !important;
+		text-align: center;
+	}
+	.logo .montronaloy .div1:before{
+		display: none;
+	}
+	.logo .montronaloy .div1,
+	.logo .montronaloy .div2{
+		margin: 3px 0;
+	}
+	.logo .social{
+		padding: 10px 0;
+	}
+	.logo .onushondhan{
+		border-right: none;
+	}
+	.custom-margin{
+		margin-top: 20px !important;
+	}
+	.navbar ul li a{
+		padding: 10px 0 10px 15px !important;
+	}
+	.footer-col{
+		padding-left: 20px !important;
+	}
+	.footer-col img{
+		margin: 0 !important;
+	}
+}
+
+@media all and (max-width: 768px){
+	.logo .onushondhan img,
+	.logo .social{
+		display: none;
+	}
+	.tab button{
+		margin: 2px;
+	}
+}
+
+@media all and (max-width: 576px){
+	.navbar{
+		margin: 10px 14px !important;
+	}
+	.custom-padding{
+		padding-left:10px !important;
+	}
+	.mr-right{
+		margin-right: -1px !important;
+	}
+}
