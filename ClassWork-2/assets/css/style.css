@@ -170,7 +170,7 @@
 }
 
 .card-group{
-    margin-left: -40px;
+    margin-left: -100px;
 }
 
 .card{
@@ -181,10 +181,16 @@
 }
 
 .card-body{
-    border: 1px solid #888;
+    border: 1px solid #8888883f;
     margin: 0 20px;
     padding: 80px 10px;
     width: 300px;
+    background-color: #88888813;
+}
+
+
+.card-body:hover{
+    background-color: #e6e6e6;
 }
 
 .card--general__title{
@@ -212,21 +218,21 @@
 .desktop--icon{
     position: absolute;
     top: 780px;
-    left: 25%;
+    left: 20%;
     z-index: 4;
 }
 
 .settings--icon{
     position: absolute;
     top: 780px;
-    left: 52.6%;
+    left: 50%;
     z-index: 4;
 }
 
 .user--icon{
     position: absolute;
     top: 780px;
-    right: 14%;
+    right: 15%;
     z-index: 4;
 }
 
@@ -234,7 +240,7 @@
 .icon-feature .desktop{
     position: absolute;
     top: 795px;
-    left: 26%;
+    left: 21%;
     z-index: 5; 
     color: #fff;
     font-size: 30px;
@@ -244,7 +250,7 @@
 .icon-feature .settings{
     position: absolute;
     top: 795px;
-    left: 53.5%;
+    left: 51%;
     z-index: 6; 
     color: #fff;
     font-size: 30px;
@@ -254,7 +260,7 @@
 .icon-feature .profile{
     position: absolute;
     top: 795px;
-    right: 14.8%;
+    right: 16%;
     z-index: 7; 
     color: #fff;
     font-size: 30px;
