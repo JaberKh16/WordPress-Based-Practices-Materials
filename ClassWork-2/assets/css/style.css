@@ -8,6 +8,9 @@
     width: 100vw;
 } */
 
+
+/* Slider Section */
+
 .slider--section{
     display: relative;
     z-index: -1;
@@ -30,6 +33,10 @@
 .carousel-item img{
     height: 400px;
 }
+
+
+
+/* Slider Controller Section */
 
 .carousel-control-prev{
     /* background-color: #070606f1; */
@@ -63,6 +70,12 @@
 .carousel-control-prev-icon:hover{
     background-color: red;
 }
+
+
+
+
+
+/* Navigational Bar Section */
 
 .navbar{
     margin-left: 120px;
@@ -123,6 +136,8 @@
 } */
 
 
+/* Dropsdown Section */
+
 .dropdown-menu .dropdown-item{
     border-right: 1px solid #e6e6e6;
     border-left: 1px solid #e6e6e6;
@@ -135,6 +150,9 @@
 .dropdown-menu .dropdown-item:hover{
     color: #333;
 }
+
+
+/* Page Heading Paragraph Section */
 
 .text-description{
     margin-top: 30px;
@@ -155,6 +173,9 @@
     margin-left: 30px;
 }
 
+
+
+/* Card Image and Icon Section */
 
 .card--description__text{
     margin-left: 200px;
@@ -266,6 +287,9 @@
     font-size: 30px;
 }
 
+
+/* Recent Post Section */
+
 .recent--post{
     margin-top: 60px !important;
     margin-left: 40px;
@@ -292,6 +316,8 @@
     margin-left: 5px !important;
 }
 
+
+/* News and Feed Section */
 .news--post{
     margin-top: 60px !important;
 }
@@ -311,4 +337,35 @@
     /* padding: 0 20px; */
     width: 80%;
     margin: 20px -70px;
+}
+
+
+
+/* footer section */
+.footer-left-menu{
+    color: #bbb;
+    font-size: 14px;
+}
+.footer-right-menu a{
+    color: #bbb;
+    text-decoration: none;
+}
+.footer-right-menu a:hover {
+    color: black;
+    font-weight: bold;
+}
+.copyright-footer{
+    background-color: #303030;
+    padding: 15px 0px;
+}
+.copyright-footer .text-right{
+    text-align: right;
+}
+.copyright-footer a{
+    color: #777;
+    text-decoration: none;
+}
+.copyright-footer a:hover{
+    color: black;
+    font-weight: bold;
 }
