@@ -266,9 +266,14 @@
     font-size: 30px;
 }
 
+.recent--post{
+    margin-top: 60px !important;
+    margin-left: 40px;
+}
+
 .recent--post .post--leftside hr{
     background-color: #344807;
-    font-size: 20px;
+    font-size: 23px;
     /* padding: 0 20px; */
     width: 80%;
     margin: 20px 200px;
@@ -276,7 +281,7 @@
 
 .recent--post .post--rightside hr{
     background-color: #344807;
-    font-size: 20px;
+    font-size: 23px;
     /* padding: 0 20px; */
     width: 80%;
     margin: 20px -100px;
@@ -284,13 +289,16 @@
 
 
 .gallary-photos .my-slider--item{
-    margin-left: 15px !important;
+    margin-left: 5px !important;
 }
 
+.news--post{
+    margin-top: 60px !important;
+}
 
 .news--post .newspost--leftside hr{
     background-color: #344807;
-    font-size: 20px;
+    font-size: 23px;
     /* padding: 0 20px; */
     width: 80%;
     margin: 20px 170px;
@@ -299,7 +307,7 @@
 
 .news--post .newspost--rightside hr{
     background-color: #344807;
-    font-size: 20px;
+    font-size: 23px;
     /* padding: 0 20px; */
     width: 80%;
     margin: 20px -70px;
